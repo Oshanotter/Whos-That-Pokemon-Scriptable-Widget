@@ -57,21 +57,21 @@ async function createWidget() {
   if (widgetSize === "large") {
     imgHeight = 230;
     imgWidth = 230;
-    var bgUrl = "https://i.imgur.com/mNxCFN1.png";
+    var bgUrl = "https://raw.githubusercontent.com/Oshanotter/Whos-That-Pokemon-Scriptable-Widget/refs/heads/main/images/bg_guess.png";
     var topPadding = 60;
     var rightPadding = 0;
 
   } else if (widgetSize === "small") {
     imgHeight = 100;
     imgWidth = 100;
-    var bgUrl = "https://i.imgur.com/mNxCFN1.png";
+    var bgUrl = "https://raw.githubusercontent.com/Oshanotter/Whos-That-Pokemon-Scriptable-Widget/refs/heads/main/images/bg_guess.png";
     var topPadding = 50;
     var rightPadding = 0;
 
   } else if (widgetSize === "medium") {
     imgHeight = 130;
     imgWidth = 130;
-    var bgUrl = "https://i.imgur.com/x4tNCws.jpeg";
+    var bgUrl = "https://raw.githubusercontent.com/Oshanotter/Whos-That-Pokemon-Scriptable-Widget/refs/heads/main/images/bg_medium.png";
     var topPadding = 20;
     var rightPadding = 170;
 
@@ -135,7 +135,7 @@ async function revealAnswerWidget(offline) {
     var img = await new Request(artUrl).loadImage();
 
     // get background image
-    var bgUrl = "https://i.imgur.com/9uuXJlm.png"
+    var bgUrl = "https://raw.githubusercontent.com/Oshanotter/Whos-That-Pokemon-Scriptable-Widget/refs/heads/main/images/bg_reveal.png"
     var bgImage = await new Request(bgUrl).loadImage();
     widget.backgroundImage = bgImage;
 
