@@ -31,7 +31,7 @@ Make sure that you have the [Scriptable](https://apps.apple.com/us/app/scriptabl
 After installing the app, download the .js file linked in this repository. You can download it by clicking the "Go To File" button below, then clicking the "Download raw file" button.  
 Once downloaded, move the .js file into the Scriptable folder in your iCloud Drive. You can access your iCloud Drive through the Files app on your iPhone.
 
-<kbd> <br> [Go To File](./Who's%20That%20Pokémon%3F.js) <br> </kbd>
+<kbd> <br> [Go To File](./Who's%20That%20Pokémon%3F.js) <br> </kbd>
 
 Or, if you'd rather, you can copy the code from the .js file and paste it into a new script in the Scriptable editor.
 
