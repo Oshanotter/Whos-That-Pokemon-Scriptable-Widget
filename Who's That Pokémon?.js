@@ -347,7 +347,7 @@ function createGlitchyGradient() {
 
 
 async function main() {
-  /* the main functino that runs when the script runs */
+  /* the main function that runs when the script runs */
 
   // check to see how the widget is running
   if (config.runsInWidget) {
